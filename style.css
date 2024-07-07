@@ -127,3 +127,153 @@ body {
   margin: 20px 0 0 12px;
   text-transform: uppercase;
 }
+/* timing section style */
+.timing-section {
+  width: 1320px;
+  height: 480px;
+  border-radius: 16px;
+  margin: 90px auto 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timing-details {
+  width: 550px;
+  text-align: center;
+}
+.timing-details h3 {
+  display: inline-block;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: red;
+}
+.timing-details span {
+  display: inline-block;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.btn {
+  padding: 16px 32px 16px 32px;
+  border-radius: 8px;
+  margin-top: 20px;
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+/* section 5 design css  */
+
+.section-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.section-5-details1 {
+  width: 395px;
+}
+.section-5-details1 > h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.section-5-details1 > h1 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.section-5-details1 > p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-5-img {
+  width: 463px;
+  border-radius: 50%;
+  padding: 20px;
+  border: 15px solid rgb(255, 0, 0);
+}
+.section-5-img img {
+  width: 100%;
+}
+.section-5-details2 {
+  width: 276px;
+}
+.section-5-details2 h2 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-5-details2 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 14px;
+}
+/* holiday-offer style */
+.holiday-offer {
+  width: 1068px;
+  margin: 0 auto;
+}
+.holiday-offer h6 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.holiday-offer h1 {
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 14px;
+  color: red;
+}
+.holiday-offer h1 span {
+  color: rgb(7, 2, 17);
+}
+.holiday-offer p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 40px;
+}
