@@ -397,6 +397,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Inter;
+  margin-top: 80px;
 }
 .footer-container {
   width: 1320px;
