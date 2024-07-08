@@ -296,3 +296,34 @@ body {
   margin-top: 100px;
   border: 1px dashed rgba(7, 2, 17, 0.6);
 }
+/* portfolio part */
+.product-portfolio {
+  width: 1320px;
+  height: 1163px;
+  margin: 90px auto;
+}
+.product-portfolio h4 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+}
+.product-portfolio h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+}
+.product-portfolio p {
+  width: 596px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.all-product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
