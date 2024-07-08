@@ -327,3 +327,111 @@ body {
   flex-wrap: wrap;
   gap: 10px;
 }
+/* Newsletter section */
+.Newsletter {
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 150px;
+}
+.Newsletter h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 18px;
+}
+.Newsletter p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+
+  text-align: center;
+}
+.Newsletter-input {
+  width: 600px;
+  height: 60px;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Newsletter-input input {
+  width: 450px;
+  height: 55px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  padding-left: 26px;
+}
+.Newsletter-input button {
+  cursor: pointer;
+  width: 150px;
+  height: 55px;
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+  background: rgb(255, 0, 0);
+}
+.Newsletter-input button:hover {
+  border: 1.5px solid black;
+}
+/* footer style is here */
+.footer {
+  background: rgb(7, 2, 17);
+  height: 609px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+}
+.footer-container {
+  width: 1320px;
+  margin: 40px auto;
+}
+
+.address-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-bottom: 60px;
+}
+.address {
+  width: 375px;
+}
+.contact-info p {
+  display: flex;
+  width: 375px;
+}
+.contact-info p img {
+  margin-right: 16px;
+  cursor: pointer;
+}
+.footer-img {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.footer-img img {
+  margin-right: 8px;
+}
+.footer-rights {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 60px;
+}
